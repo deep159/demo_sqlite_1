@@ -1,0 +1,112 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Id"
+        android:id="@+id/id_edittext"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/name_edittext"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:textSize="20dp"
+        android:id="@+id/insert_button"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textSize="20dp"
+        android:id="@+id/view_button"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Id to Delete"
+            android:id="@+id/delete_editext"
+            android:textSize="20dp"
+            android:background="#000000"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:id="@+id/delete_button"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/update_button"
+        />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Id"
+            android:id="@+id/view_particular_editext"
+            android:textSize="20dp"
+            android:background="#000000"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_search_black_24dp"
+            android:id="@+id/find_button"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
